@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Hello This is my Website.The description part is this."
+    />
+    <!-- <link rel="stylesheet" href="./vamsi.css"> -->
+    <!-- <style>
+      span{
+        color: blue;
+      }
+      #para{
+        border: 4px solid rgb(0, 255, 55);
+        border-radius: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+    </style> -->
+    <link rel="stylesheet" href="vamsi.css" />
+    <script src="vamsi.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vamsi Dath</title>
+  </head>
+  <body>
+    <header>
+     <h2 id="webhead">Welcome to My Website.</h2>
+    </header>
+    <nav>
+        <a href="./index.html">Home</span></a>
+        <button class="rnav">Contact Us</button>
+        <button class="rnav">Find ?</button>
+        <button class="rnav">Help</button>
+        working buttons >>  
+        <a href="./form.html"><button class="rnav">FORM</button></a>
+        <a href="./list.html"><button class="rnav">DATA</button></a>
+    </nav>
+    <br>
+    <hr><h1 style="font-size: 35px ;color: cornsilk ;text-align: center ;text-decoration: underline;">Form :
+    </h1><hr>
+    <form action="backend.php">
+      <div>Name : <input type="text" name="name_backend" id="name" /></div><br>
+      <label for="name_frntEND">name :</label>
+      <div>
+        <input type="text" name="name_bCKEND" id="name_frntEND" />
+      </div><br>
+      <label for="name_fCKEND">last name :</label>
+      <div>
+        <input type="text" name="name_bCKEND" id="name_fCKEND" />
+      </div><br>Email :<input type="email" name="emailBE"><br>
+      <div>Are you eligible : <input type="checkbox" name ="eligibility" checked></div>
+      <div>
+        <label for="carfrontend">Car : </label>
+        <select name="car_backend" id="carfrontend">
+          <option value="s">swift</option>
+          <option value="a" selected>Alto</option>
+          <option value="w">Wagnor</option>
+          <option value="b">Benz</option>
+          <option disabled value="m">maruti</option>
+        </select>
+      </div>
+      <br>Gender &lt;&nbsp;&gt;
+       Male: <input type="radio" checked id="male" name="gender"/>
+       FeMale: <input type="radio" id="fmale" name="gender"/>
+       Age: <input type="number" draggable="false" id="ageFE"name="age"/>
+       <div><label for="desp"> write down your description :</label>
+         <textarea name="descriptionBE" id="desp" cols="50" rows="10"></textarea>
+       </div>      
+       <br><br><div>
+      <input type="submit" value="Submit noww...!" />
+      <input type="reset" value="reset the form" />
+      </div>
+    </form>
+    <footer>
+      <p>&copy; copyright - 2021 All rights reserved</p>
+      <p>Made by Vamsi Dath</p>
+    </footer>
+  </body>
+</html>
